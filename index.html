@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce</title>
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="CSS/styles.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+ <!-- ICONOS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+<header>
+ 
+<!--========================================================== -->
+                        <!-- MENU-->
+<!--========================================================== -->
+    <nav class="navbar navbar-expand-lg navbar-info bg-light" style="height: 70px;">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#">
+                <img src="">
+                SOPORTE TI
+            </a>
+            
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse mt-1 " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrito.html">Productos</a>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contactanos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="btn btn-outline-dark border-0" href="carrito.html" >
+                           <i class="bi-cart-fill me-1"></i>Carrito
+                        </a>
+                    </li>
+                </ul>   
+            </div>
+        </div>
+    </nav>
+
+
+       
+    <!--========================================================== -->
+                        <!-- SLIDER DE IMAGENES-->
+    <!--========================================================== -->
+   
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            
+          <div class="carousel-item active" data-bs-interval="3000">
+            <div class="" id="conferencia">
+                <img src="./img/slide2.jpg" class="d-block w-100" alt="">
+                <div class="container">
+                    <div class="card-img-overlay text-end text-white" id="conf">
+                        <h1 class="card-title">Bienvenidos a SOPORTE TI</h1>
+                        <p id="texto-bsas">Somos una corporación peruana que inició hace 10 años con la venta de soluciones de Infraestructura tecnológica, recuperacion de datos de discos duros, y que en la actualidad se ha convertido en una empresa líder del sector de soluciones tecnológicas en el mercado peruano, tales como alquiler y venta de servidores, Seguridad, comunicaciones unificadas, Consultoría y Desarrollo de Software, recuperacion de datos de discos duros y raid, Internet dedicado, Data Center, entre otras y, también, somos pioneros en brindar Soluciones de Energía Renovable.
+                        </p>
+                        <a role="button" class="btn btn-outline-light" href="#servicios">Servicios</a>
+                        <a role="button" class="btn btn-success" href="contacto.html">Contactanos</a>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+          
+ 
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/recu.png" class="d-block w-100" alt="...">
+          </div>
+
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/back.png" class="d-block w-100" alt="...">
+          </div>
+ 
+ 
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>    
+    
+</header>
+
+<!--========================================================== -->
+                        <!-- SERVICIOS-->
+<!--========================================================== -->
+
+<section id="servicios">
+    <br>
+    <p class="parrafo">  </p>
+    <h3 class="servicio text-center">Nuestros Principales Servicios:</h3>
+
+    <div class="container">
+        <div class="row cards" id="oradores">
+            <div class="col">
+                <div class="card">
+                    <img src="./IMG/servidores.png" class="card-img-top" width="250" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Alquiler de Servidores</h5>
+                        <p class="card-text">Tenemos Amplia gama de servidores de las mejores marcas y el más alto rendimiento.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./IMG/datacenter.png" class="card-img-top" width="250" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Solucion de Data Center</h5>
+                        <p class="card-text">Trabajamos soluciones de data center llave en mano para la comodidad de nuestros clientes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" >
+                    <img src="./IMG/recuperacion.png" class="card-img-top"  width="250" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Recuperación de Datos</h5>
+                        <p class="card-text">Dnp Recovery se especializa en la recuperación de datos sistemas RAID. <br><br></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="./IMG/backups.png" class="card-img-top"  width="250" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Backups en la Nube.</h5>
+                        <p class="card-text">Sus datos y aplicaciones están en todas partes: servidores, clientes y en la nube. <br><br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--========================================================== -->
+                        <!-- QUE OFRECEMOS-->
+<!--========================================================== -->
+
+<div id="local" class="border-top border-2">
+    <div class="paises" style="margin-left: 130px;"> </div>
+    <div>
+        <div class="wrapper-local">
+            <h2>¿Qué te Ofrecemos?</h2>
+            <h2 class="text-warning " id="typewriter1"></h2>
+            <p class="fs-5 text-body">Pensamos en las mejores soluciones de TI adaptándolas al tamaño de tu empresa, objetivos y retos que estén afrontando. Enfocamos nuestro proceso en lograr la mejor experiencia de usuario para un fácil uso y resultado ágil</p>
+            <section class="d-flex justify-content-start" id="numeros-local">
+                <div>
+                    <p class="text-primary fs-5">400+</p>
+                    <p>Proyectos</p>
+                </div>
+                <div>
+                    <p class="text-primary fs-5">11+</p>
+                    <p>Años de servicio</p>
+                </div>
+                <div>
+                    <p class="text-primary fs-5">5000+</p>
+                    <p>Clientes</p>
+                </div>
+          </section>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container p-4 mt-5">
+    <div class="items">
+        <div class="row">
+            <h3 class="text-center p-3">Productos Populares</h3>
+            <div class="col-12 col-md-4">
+                <div class="item shadow mb-4">
+                    <h3 class="item-title">Access Point Cisco</h3>
+                    <img class="item-image" src="./IMG/access.jpg">
+                    <div class="item-details">
+                        <h4 class="item-price">30.99€</h4>
+                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                    </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-4">
+               <div class="item shadow mb-4">
+                    <h3 class="item-title">Switch Cisco Catalyst</h3>
+                    <img class="item-image" src="./IMG/switch1.jpg">
+                    <div class="item-details">
+                        <h4 class="item-price">9.99€</h4>
+                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="item shadow mb-4">
+                    <h3 class="item-title">Switch HPE 5120-24G SI</h3>
+                    <img class="item-image" src="./IMG/switch2.jpg">
+                    <div class="item-details">
+                        <h4 class="item-price">9.99€</h4>
+                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--========================================================== -->
+                        <!-- FOOTER-->
+<!--========================================================== -->
+
+<footer>
+    <div class="footer__copyright container" >
+        <div class="row text-center justify-content-center" id="pie-pagina">
+            <div class="col">
+                <a class="nav-link" href="#">Preguntas Frecuentes</a>
+            </div>
+            <div class="col">
+                <a class="nav-link" href="#">Términos y condiciones</a>
+            </div>
+            <div class="col">
+                <a class="nav-link" href="#">Privacidad</a>
+            </div>
+            <div class="col">
+                <a class="nav-link" href="#">Contáctame</a>
+            </div>
+            <div class="col">
+                <a class="nav-link" href="#">Numero</a>
+            </div>
+            <div class="col">
+                <a class="nav-link" href="#">Redes sociales</a>
+            </div>
+            <div class="col">
+                <a class="nav-link" href="#">Sigueme</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./tienda.js"></script>
+    <script src="./main.js"></script>
+
+
+</body>
+
+</html>
